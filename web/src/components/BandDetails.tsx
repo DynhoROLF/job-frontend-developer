@@ -180,8 +180,6 @@ export default function BandDetails({ username }: BandDetailProps) {
                       </Link>
                     </Flex>
                   )}
-
-                  {/* detail.images?.[1].url */}
                 </Flex>
                 <Image
                   src={detail.images?.[1].url}
