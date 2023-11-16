@@ -25,8 +25,10 @@ bun dev
 
 E um Adicional para conseguir rodar as APIs, é necessário criar um arquivo na raiz do job-frontend-developer/web/ com o nome: .env.local
 Dentro desse arquivo adicione as chaves para poder utilizar as requisições. Nesse formato: 
+```
 NEXT_PUBLIC_YOUTUBE_KEY=CHAVEAPI
 NEXT_PUBLIC_TICKETMASTER_KEY=CHAVEAPI
+```
 
 Abra [http://localhost:3000](http://localhost:3000) com o seu browser para ver o resultado
 
