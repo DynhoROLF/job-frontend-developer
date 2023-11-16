@@ -4,7 +4,7 @@ import { Flex, Text } from '@chakra-ui/react'
 
 export default function Header() {
   return (
-    <Flex className="w-full bg-zinc-800 border-b border-zinc-600 text-zinc-100 items-center justify-center align-center py-4">
+    <Flex className="w-full bg-zinc-800 border-b border-zinc-600 text-zinc-100 items-center justify-center align-center py-1">
       <Image
         priority
         height={42}
@@ -12,7 +12,9 @@ export default function Header() {
         src={youtubeIcon}
         alt="Old youtube Icon"
       />
-      <Text className="px-4 text-3xl font-bold">YourTube</Text>
+      <Text className="px-4 text-3xl font-bold items-center mt-3">
+        YourTube
+      </Text>
     </Flex>
   )
 }

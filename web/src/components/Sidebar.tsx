@@ -1,5 +1,5 @@
 import { Flex, Text } from '@chakra-ui/react'
-import { YoutubeChannel } from './YoutubeChannel'
+import Videos from './Videos'
 
 export interface SidebarProps {
   username: string
@@ -13,7 +13,7 @@ export default function Sidebar(props: SidebarProps) {
       </Text>
 
       <Flex className="flex flex-col gap-8">
-        <YoutubeChannel username={props.username} />
+        <Videos username={props.username} />
       </Flex>
     </aside>
   )
