@@ -2,7 +2,7 @@ import { Flex } from '@chakra-ui/react'
 
 import Header from '@/components/Header'
 import Sidebar from '@/components/Sidebar'
-import Player from '@/components/Player'
+import VPlayer from '@/components/VPlayer'
 import Footer from '@/components/Footer'
 
 interface ChannelProps {
@@ -16,7 +16,7 @@ export default function Channel({ params }: ChannelProps) {
     <Flex className="flex-col min-h-screen">
       <Header />
       <Flex className="flex-1">
-        <Player />
+        <VPlayer username={params.slug} />
         <Sidebar username={params.slug} />
       </Flex>
       <Footer />
