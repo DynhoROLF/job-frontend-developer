@@ -39,7 +39,7 @@ export default function Videos({ username }: VideosProps) {
 
   const dataArray = data?.items
 
-  const dataDisplay = dataArray?.map((object) => {
+  const dataDisplay = dataArray?.map((object: any) => {
     const dateFormatted = format(
       new Date(object.snippet.publishedAt),
       "d' de 'MMMM' • 'yyyy",
